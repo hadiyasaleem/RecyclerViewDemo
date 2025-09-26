@@ -37,10 +37,10 @@ public class AdapterOne extends RecyclerView.Adapter<AdapterOne.MyViewHolder>
 
     @Override
     public int getItemCount() {
-        return 0;
+        return arr_img.length;
     }
 
-    class MyViewHolder extends RecyclerView.ViewHolder{
+    static class MyViewHolder extends RecyclerView.ViewHolder{
 
         private ImageView img;
         private TextView names;
