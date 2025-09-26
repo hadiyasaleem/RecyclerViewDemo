@@ -33,7 +33,6 @@ public class AdapterOne extends RecyclerView.Adapter<AdapterOne.MyViewHolder>
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         holder.img.setImageResource(arr_img[position]);
         holder.names.setText(arr_names[position]);
-
     }
 
     @Override

@@ -17,7 +17,6 @@ public class RecyclerViewDemo extends AppCompatActivity {
     String[] names={"Hadia","Laraib","Sharfa","Aliyan"};
     int[] img={R.drawable.hijab_jpg,R.drawable.cloud,R.drawable.nature,R.drawable.mountain};
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
